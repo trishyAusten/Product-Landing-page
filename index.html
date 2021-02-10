@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Social Medial icon library CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+</head>
+<header id="header">
+    <div class="header-content-div">
+        <a href="#home-sec">
+            <img
+                    src="data:image/png;base64,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"
+                    alt="Company Logo"
+                    id="header-img"
+            /></a>
+        <nav id="nav-bar">
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#varieties" class="nav-link">VARIETIES</a>
+            <a href="#our-service" class="nav-link">OUR SERVICE</a>
+            <a href="#benefits" class="nav-link">BENEFITS</a>
+        </nav>
+    </div>
+</header>
+<main>
+    <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+            <img src="https://cdn.shopify.com/s/files/1/0896/3738/t/97/assets/slideshow_2.jpg?v=8126393490069014655" alt="sugar bear logo" />
+        </div>
+        <div class="eye-grabber">
+           
+
+
+            <h1>Sugarbearhair</h1>
+            <h2>
+               Vitamins and supplement
+            </h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input
+                        name="email"
+                        id="email"
+                        type="email"
+                        placeholder="Enter your email address"
+                        required
+                />
+                <input id="submit" type="submit" value="Get Started" class="btn" />
+            </form>
+        </div>
+    </section>
+    <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+            <p>
+                Here at SugarBearHair, we strive for maximum safety and maximum results. Our products are manufactured in the USA in facilities that use FDA approved guidelines to ensure quality and safe products for your peace of mind. We used only the best ingredients available to ensure an effective product that looks great, smells great and tastes great too! Most importantly, everyone is saying "It works!".
+
+                Sugar Bear Hair Ingredients:* Our vegan vitamins contain Vitamin A, Vitamin C, Vitamin D, Vitamin E, Vitamin B-6, Folic Acid, Vitamin B-12, Biotin, Pantothenic Acid, Iodine, Zinc, Choline, Inositol, as the active vitamins and minerals. The gummies are made with real berries for a deliciously sweet flavor, coconut oil, and a dash of sugar. Below you can read an in depth explanation of why we chose each of our ingredients in our unique hair care formula!
+
+                These are just some of the amazing ingredients found in SugarBearHair chewable hair vitamins!
+            </p>
+            <img src="https://cdn.shopify.com/s/files/1/0896/3738/files/pic-ing.jpg?v=1499474572" alt="sugar bear vitamins" />
+        </div>
+    </section>
+    <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="sec-content-div flexible">
+            <div class="tile">
+                <img src="https://cdn.shopify.com/s/files/1/0896/3738/products/Multi_1_month_00eead1d-3500-4e09-b694-d27a1214b76f_1024x1024.png?v=1611089214" alt="photo of amber apples" />
+                <h4>SUGARBEARHAIR WOMEN'S MULTI | VEGAN MULTIVITAMIN - 1 MONTH<</h4>
+                <p>
+                    $29.99 USD
+                </p>
+            </div>
+
+            <div class="tile">
+                <img src="https://cdn.shopify.com/s/files/1/0896/3738/products/Sleep_1_month_37d2bb33-de49-43bf-bfc8-9bd2783a7dfd_1024x1024.png?v=1611089224" alt="photo of Maharaej apples" />
+                <h4>SUGARBEAR® SLEEP VITAMINS - 1 MONTH</h4>
+                <p>
+                    $29.99 USD
+                </p>
+            </div>
+            <div class="tile">
+                <img src="https://cdn.shopify.com/s/files/1/0896/3738/products/Hair_1_month_1024x1024.png?v=1611089207" alt="photo of Hazratbael apples" />
+                <h4>SUGARBEARHAIR VITAMINS - 1 MONTH</h4>
+                <p>
+                    $29.99 USD
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+            <div class="bars">
+                <div class="icon-container">
+                    <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+                </div>
+                <div class="txt-container">
+                    <h5>Good Packaging</h5>
+                    <p>Great packaging with a 100% guarantee.</p>
+                </div>
+            </div>
+            <div class="bars">
+                <div class="icon-container">
+                    <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+                </div>
+                <div class="txt-container">
+                    <h5>Fast</h5>
+                    <p>
+                        We deliver your orders as fast as possible, delivery procedure
+                        begins as soon as you messages.
+                    </p>
+                </div>
+            </div>
+            <div class="bars">
+                <div class="icon-container">
+                    <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+                </div>
+                <div class="txt-container">
+                    <h5>Satisfying</h5>
+                    <p>
+                        We guarantee 100% customer satisfaction. We do our best to make
+                        your purchase experience smooth. But if we mess up somehow you
+                        will get compensated for every inconvenience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">BENEFITS</h3>
+        <div class="sec-content-div flexible">
+            <iframe
+                    id="video"
+                    width="560"
+                    title="Benefits of sugarbearhair"
+                    height="315"
+                    src="https://www.youtube.com/watch?v=2StB2Yewgnw"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+            ></iframe>
+        </div>
+    </section>
+
+</main>
+
+
+<footer class="footer">
+    <div class="content">
+        <div class="footer-content">
+            <div class="footer-content-brand">
+                <a href="index.html" class="logo">
+                    <img class="logo-image" src="./images/logoy.png" alt="">
+                </a>
+
+                <p> Sugarbearhair is a International brand of Women's Vitamins showcasing various holy grails made from wide varieties of plant extracts and essential oils.
+               </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="social-media-wrap">
+
+        <div class="social-media">
+            <a href="#" class="sm-link"><i class ="fab fa-twitter"></i></a>
+            <a href="https://web.facebook.com/maryelizabethrph" class="sm-link"><i class ="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/maryelizabethr.ph/" class="sm-link"><i class ="fab fa-instagram"></i></a>
+            <a href="#" class="sm-link"><i class ="fab fa-pinterest"></i></a>
+        </div>
+        <p class="copyright">&copy; Sugarbearhair</p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    Created by
+    <a href="#" target="_blank"
+       rel="noopener noreferrer"
+    >Trisha Anne Pagtulingan</a
+    >
+</footer>
+
+</html>
